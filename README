@@ -1,0 +1,12 @@
+Archlinux does not setup the links properly for search, so in order for cobol to find the libraries it needs, you need to create a symbolic link.
+
+
+
+ln -s /usr/local/lib/libcob.so.1 /usr/lib/libcob.so.1
+
+
+BA BAAAAM
+
+To compile and create an exe for cobol, use the followign command,
+
+cobc -x hello.cob
