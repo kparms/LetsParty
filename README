@@ -1,4 +1,4 @@
-Archlinux does not setup the links properly for search, so in order for cobol to find the libraries it needs, you need to create a symbolic link.
+Archlinux does not setup the links properly for search, so in order for cobol to find the libraries it needs, we need to create a symbolic link.
 
 
 
